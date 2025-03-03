@@ -33,7 +33,7 @@ A React-based user interface for the Fin-Tracker personal finance application.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sprasath/fin-tracker-ui.git
+git clone https://github.com/satiyap/fin-tracker-ui.git
 cd fin-tracker-ui
 ```
 
@@ -117,4 +117,4 @@ The build files will be created in the `build` directory.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
