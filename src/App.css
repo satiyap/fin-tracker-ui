@@ -1,0 +1,108 @@
+/* Main layout */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    min-height: calc(100vh - 56px);
+    border-right: 1px solid #dee2e6;
+  }
+  
+  .sidebar-item {
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .sidebar-item.active {
+    background-color: #e9ecef;
+    color: #007bff;
+    font-weight: 500;
+  }
+  
+  /* Card styles */
+  .card {
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Button styles */
+  .btn {
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .btn-icon {
+    padding: 0.25rem 0.5rem;
+  }
+  
+  /* Form styles */
+  .form-control, .form-select {
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+  }
+  
+  /* Table styles */
+  .table th {
+    font-weight: 600;
+    border-top: none;
+  }
+  
+  .table td, .table th {
+    padding: 0.75rem;
+    vertical-align: middle;
+  }
+  
+  /* Badge styles */
+  .badge {
+    padding: 0.35em 0.65em;
+    font-weight: 500;
+  }
+  
+  /* Loader styles */
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+  
+  /* Dashboard card styles */
+  .dashboard-card {
+    transition: transform 0.2s;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Chart container */
+  .chart-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .sidebar {
+      min-height: auto;
+      border-right: none;
+      border-bottom: 1px solid #dee2e6;
+      margin-bottom: 1rem;
+    }
+  }
